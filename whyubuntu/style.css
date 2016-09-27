@@ -1,0 +1,245 @@
+html { overflow: auto; }
+head, style, meta {
+	display: none;
+	visibility: hidden;
+}
+body {
+	font: 300 1em/1.4 'Ubuntu', sans-serif;
+	color: #333;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background: #fefefe;
+}
+h1 {
+	font: 300 2em/1 'Ubuntu', sans-serif;
+	text-align: center;
+	margin: 0 0 5%;
+}
+h2 {
+	font: 300 1.7em/1 'Ubuntu', sans-serif;
+	text-align: center;
+	margin: 0 0 5%;
+}
+h3 {
+	font: 300 1.2em/1 'Ubuntu', sans-serif;
+	text-align: left;
+	margin: 0 0 5%;
+}
+h1 span, h2 span, h3 span { opacity: 0.8; }
+p {
+	text-align: left;
+	margin: 1% 0;
+}
+a {
+	color: #dd4814;
+	text-decoration: none !important;
+}
+.small { font-size: 0.9em; }
+.intro, .big { font-size: 1.1em; }
+.italic { font-style: italic; }
+img {
+	margin: 1%;
+	padding: 1%;
+	background: transparent !important;
+	display: block;
+}
+img.right {
+	float: right;
+	margin: 7px 0 7px 8px;
+	padding: 0;
+	border: 0;
+	background: inherit;
+}
+img.left {
+	float: left;
+	margin: 7px 8px 7px 0;
+	padding: 0;
+	border: 0;
+	background: inherit;
+}
+img.max100 {
+	max-width: 100px;
+	max-height: 100px;
+}
+img.max50 {
+	max-width: 50px;
+	max-height: 50px;
+}
+img.line {
+	max-width: 870px;
+	border: 0;
+	padding: 0;
+	margin: 30px -70px 0px;
+}
+
+.clearleft { clear: left; }
+.clear, .clearboth { clear: both; }
+.clearright { clear: right; }
+.clearnone { clear: none; }
+
+.textleft { text-align: left; }
+.textcenter { text-align: center; }
+.textjustify { text-align: justify; }
+.textright { text-align: right; }
+
+blockquote {
+	border: 0!important;
+	height: 180px;
+	margin: 0;
+	padding: 60px;
+	width: 170px;
+}
+.quote-left {
+	background: url('supporting-files/quote-left.png') no-repeat scroll 0 0 transparent;
+	float: left;
+}
+.quote-right {
+	background: url(supporting-files/quote-right.png') no-repeat scroll 0 0 transparent;
+	float: right;
+}
+.floatright { float: right; }
+.floatleft { float: left; }
+.darkblock {
+	background: rgba(0,0,0,0.3);
+	padding: 20px 30px;
+	height: auto;
+}
+blockquote p {
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+}
+cite {
+	font-size: 13px!important;
+	font-style: italic;
+	float: right;
+}
+.box {
+	box-shadow: 0 2px 2px 0 #c2c2c2;
+	margin: 5px;
+	padding: 1px 3px;
+}
+code {
+	margin: 0;
+	padding: 3px 5px 3px 20px;
+	background: url('supporting-files/block.png') repeat-y 0 0 #efefef;
+	width: 700px;
+}
+.package {
+	margin: 0 auto;
+	background: #fafafa;
+	padding: 50px 70px;
+	border: none;
+	max-width: 730px;
+}
+.package.half { padding: 30px 70px; }
+.row {
+	background: #fafafa;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.block {
+	background: #333333;
+	background: rgba(0,0,0,0.7);
+	margin: 0 auto;
+	padding: 50px 70px;
+	max-width: 730px;
+	color: #fff;
+	text-align: left;
+}
+
+.top {
+	background: url('backgrounds/13-04.jpg') top center fixed;
+	background-size: cover;
+	color: #fff;
+	text-align: center !important;
+}
+.top h3 {
+	margin: 50px 0 20px 0;
+	padding: 0 12px 5px;
+	text-align: center;
+	border: none;
+}
+.top h3 a {
+	background: #fafafa;
+	padding: 15px 15px 16px;
+	color: #77216f;
+	border-radius: 5px;
+	font-weight: 400;
+}
+.top div { text-align: center; }
+.top a {
+	color: #fcfcfc;
+}
+
+.fast {
+	background: url('backgrounds/13-04/landing-by-nic-dahlquist.jpg') top center fixed;
+	background-size: cover;
+}
+
+.new {
+	background: url('backgrounds/13-04/morning-sun-on-frost-covered-leaves-by-gary-a-stafford.jpg') top center fixed;
+	background-size: cover;
+}
+
+
+#social-column {
+	float: left;
+	width: 355px;
+	margin: 20px;
+	text-align: center;
+}
+/*---   Footer   ---*/
+footer {
+	clear: both;
+	text-align: left;
+	color: #555;
+	}
+footer h4 {
+	font: 300 2em/1.25 'Ubuntu', Sans;
+	color: #555;
+	margin: 0;
+	}
+footer ul {
+    width: 100px;
+    float: left;
+    margin: 0 3%;
+    padding: 0;
+	}
+footer li {
+	list-style: none;
+	padding: 3% 0;
+	margin: 0;
+	}
+footer img {
+	float: left;
+	vertical-align: middle;
+	max-height: 128px;
+	padding: 0;
+	border: none;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	opacity: 0.8;
+	}
+footer a:hover img {
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	opacity: 1;
+	}
+.nicescroll-rails {
+    display: none;
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
