@@ -64,10 +64,14 @@ h1 {
 	font-size: 3rem;
 	font-weight: 300;
 }
-
-h2,
+h2 {
+	font-family: 'Roboto', serif;
+	font-size: 2rem;
+	font-weight: 400;
+}
 h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', serif;
+	font-size: 1.7rem;
 	font-weight: 400;
 }
 h1 + .sub-title {
@@ -134,6 +138,10 @@ textarea.display-inline {
 .breaker { height: 1rem; width: 100%; }
 
 /* $BrowserSize */
+.browser-size h2 {
+	font-size: 3rem;
+	font-weight: 300;
+}
 .js-target-size {
 	position: absolute;
 }

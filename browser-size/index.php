@@ -1,6 +1,6 @@
 <?php include __DIR__.'/../_templates/header.php'; ?>
 
-<body class="text-center background-white color-222">
+<body class="text-center background-white color-222 browser-size">
 
 <a href="https://github.com/eustasy/labs.eustasy.org" class="github-corner" aria-label="View source on Github">
 	<svg width="80" height="80" viewBox="0 0 250 250" class="fill-belize-hole color-white" aria-hidden="true">
@@ -28,7 +28,15 @@
 			$('.js-target-size.width').html(width); // Make Width have the right Number
 			$('.js-target-size.height').html(height); // Make Height have the right Number
 			var heightTop = ($(window).height()/2) - $('.js-target-size.height').height(); // Get the new Heights Top
-			$('.js-target-size.height').css('top',heightTop); // Set the new Heights Top
+			$('.js-target-size.height').css('top', heightTop); // Set the new Heights Top
+			if (
+				$(window).width() < 500 ||
+				$(window).height() < 500
+			) {
+				$('header').hide(250);
+			} else {
+				$('header').show(250);
+			}
 		}; // The function's finished
 		$(function() {
 			$(document).ready(getSize); // Run on pageload
