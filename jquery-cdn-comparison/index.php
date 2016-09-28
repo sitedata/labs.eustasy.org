@@ -19,7 +19,7 @@
 		</section>
 		<hr id="footer">
 		<footer>
-			<h3>a <a class="color-belize-hole" href="http://eustasy.org/">eustasy</a> lab</h3>
+			<h3>a <a class="color-belize-hole" href="https://eustasy.org/">eustasy</a> lab</h3>
 		</footer>
 	</body>
 </html>

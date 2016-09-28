@@ -40,9 +40,6 @@
 [submodule "phoenix"]
 	path = phoenix
 	url = https://github.com/eustasy/phoenix
-[submodule "browser-size"]
-	path = browser-size
-	url = https://github.com/eustasy/browser-size
 [submodule "comments-evolved"]
 	path = comments-evolved
 	url = https://github.com/eustasy/comments-evolved
