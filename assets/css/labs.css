@@ -50,6 +50,33 @@ hr.section-breaker {
 	max-width: 80rem;
 }
 
+/* $Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+h1 {
+	font-family: 'Open Sans', serif;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+h2,
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h1 + .sub-title {
+	margin-top: -1rem;
+}
+.fancy {
+	font-family: 'Lusitana', serif;
+}
+
 /* $Links */
 a {
 	color: inherit;
@@ -106,8 +133,23 @@ textarea.display-inline {
 
 .breaker { height: 1rem; width: 100%; }
 
+/* $BrowserSize */
+.js-target-size {
+	position: absolute;
+}
+.js-target-size.height {
+	margin: 0 1rem;
+}
+.js-target-size.width {
+	bottom: 0;
+	margin: 1rem auto;
+	width: 100%;
+}
+
 /* $GitHubCorner */
 .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}
-.github-corner svg{fill:#fff; position: absolute; top: 0; border: 0; right: 0;}
+.github-corner svg{position: absolute; top: 0; border: 0; right: 0;}
 @keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}
 @media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+.fill-white { fill: #ffffff; }
+.fill-belize-hole { fill: #2980B9; }
