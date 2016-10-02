@@ -92,7 +92,7 @@ a {
 .button {
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
 	            0 2px 10px 0 rgba(0,0,0,0.12);
-	margin: 2rem 0;
+	margin: 2rem 1rem;
 	padding: .7rem 1rem;
 	transition: all 200ms ease-in-out;
 }
@@ -123,15 +123,21 @@ a {
 
 .display-none { display: none; }
 .display-block { display: block; }
-.display-inline { display: inline-block; }
-code.display-inline,
-input.display-inline,
-textarea.display-inline {
+.display-inline { display: inline; }
+.display-inline-block { display: inline-block; }
+code.display-inline-block,
+input.display-inline-block,
+textarea.display-inline-block {
 	line-height: 1.4;
 	padding: .35rem .5rem;
 }
 
-.rounded { border-radius: 5px; }
+.list-style-none {
+	list-style: none;
+	padding: 0;
+}
+
+.rounded { border-radius: 3px; }
 
 .min-width-10vw { min-width: 10vw; }
 
