@@ -55,6 +55,3 @@
 [submodule "Smooth-Scroll-ALL-the-Things"]
 	path = Smooth-Scroll-ALL-the-Things
 	url = https://github.com/eustasy/Smooth-Scroll-ALL-the-Things
-[submodule "uptimerobot-status-page"]
-	path = uptimerobot-status-page
-	url = https://github.com/eustasy/uptimerobot-status-page
