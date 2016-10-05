@@ -158,24 +158,6 @@ then verify the entered response over a given time variance.</p>
 <hr class="section-breaker">
 
 <section class="whole grid">
-	<div class="whole smablet-half">
-		<a href="uptimerobot-status-page" title="Uptime Robot Status Page">
-			<img alt="Uptime Robot Status Page" src="assets/images/uptimerobot-status-page.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>Uptime Robot Status Page</h3>
-		<p class="text-left">A Status page for Uptime Reports from <a href="http://uptimerobot.com">UptimeRobot.com</a>, making only slight use of their API.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="uptimerobot-status-page">Demo</a>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/uptimerobot-status-page">GitHub</a>
-		</p>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
 	<h2>Tiny Labs</h2>
 </section>
 
