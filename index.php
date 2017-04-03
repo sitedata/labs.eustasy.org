@@ -174,7 +174,7 @@ then verify the entered response over a given time variance.</p>
 		<p class="text-left">Browser Size is a small HTML document that relies only on jQuery to quickly and simply display the dimensions of your browser window. This can be especially useful to have locally stored on your machine for manipulating CSS Media Queries and emulating smaller screens.</p>
 		<p>
 			<a class="button rounded display-inline-block background-white color-belize-hole" href="browser-size">Demo</a>
-			<a class="button rounded display-inline-block display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/browser-size">GitHub</a>
+			<a class="button rounded display-inline-block display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/labs.eustasy.org">GitHub</a>
 		</p>
 	</div>
 </section>
