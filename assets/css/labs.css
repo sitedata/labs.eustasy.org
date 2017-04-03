@@ -105,10 +105,11 @@ a {
 
 /* $Buttons */
 .button {
+	border: 1px solid #ccc;
 	box-shadow:
-		0 2px 2px 0 rgba(0,0,0,.14),
-		0 3px 1px -2px rgba(0,0,0,.2),
-		0 1px 5px 0 rgba(0,0,0,.12);
+		0 1px 2px 0 rgba(0,0,0,.14),
+		0 2px 1px -2px rgba(0,0,0,.2),
+		0 1px 3px 0 rgba(0,0,0,.12);
 	margin: 2rem 1rem;
 	padding: .7rem 1rem;
 	transition: all 200ms ease-in-out;
@@ -161,11 +162,6 @@ textarea.display-inline-block {
 
 .breaker { height: 1rem; width: 100%; }
 
-.github-corner svg {
-	fill: #3498db;
-	color: #fefefe;
-	text-decoration: none;
-}
 
 /* $BrowserSize */
 .browser-size h2 {
@@ -186,7 +182,10 @@ textarea.display-inline-block {
 
 /* $GitHubCorner */
 .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}
-.github-corner svg{position: absolute; top: 0; border: 0; right: 0;}
+.github-corner svg{position: absolute; top: 0; border: 0; right: 0;
+	fill: #3498db;
+	color: #fefefe;
+	text-decoration: none;}
 @keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}
 @media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
 .fill-white { fill: #ffffff; }
