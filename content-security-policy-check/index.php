@@ -1,4 +1,5 @@
-<?php include '../header.php'; ?>
+<?php include __DIR__.'../header.php'; ?>
+<!-- TODO Rewrite -->
 				<h1>Content Security Policy Check</h1>
 				<h5>by <a href="http://eustasy.org/" class="inlink">eustasy.org</a></h5>
 			</header>

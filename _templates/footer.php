@@ -1,3 +1,4 @@
+<hr id="footer">
 <footer>
 	<p>
 		<a href="https://github.com/eustasy/labs.eustasy.org/blob/master/LICENSE.md">MIT License</a> &nbsp;&middot;&nbsp;

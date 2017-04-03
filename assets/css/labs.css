@@ -1,18 +1,23 @@
-/* $Grid */
-/* Simple responsive grid by Cassidy James Blaede <c@ssidyjam.es> */
-.grid .whole,.grid>*{width:100%}*{box-sizing:border-box}.grid::after,.grid::before{display:table;content:"";line-height:0;clear:both}.grid>*{padding:.5em;float:left}.grid .half{width:50%}.grid .quarter{width:25%}.grid .three-quarters{width:75%}.grid .third{width:33.33%}.grid .two-thirds{width:66.67%}@media only screen and (min-width:640px){.grid .smablet-whole{width:100%}.grid .smablet-half{width:50%}.grid .smablet-quarter{width:25%}.grid .smablet-three-quarters{width:75%}.grid .smablet-third{width:33.33%}.grid .smablet-two-thirds{width:66.67%}}@media only screen and (min-width:768px){.grid .medium-whole{width:100%}.grid .medium-half{width:50%}.grid .medium-quarter{width:25%}.grid .medium-three-quarters{width:75%}.grid .medium-third{width:33.33%}.grid .medium-two-thirds{width:66.67%}}@media only screen and (min-width:1025px){.grid .large-whole{width:100%}.grid .large-half{width:50%}.grid .large-quarter{width:25%}.grid .large-three-quarters{width:75%}.grid .large-third{width:33.33%}.grid .large-two-thirds{width:66.67%}}@media only screen and (min-width:1441px){.grid .xlarge-whole{width:100%}.grid .xlarge-half{width:50%}.grid .xlarge-quarter{width:25%}.grid .xlarge-three-quarters{width:75%}.grid .xlarge-third{width:33.33%}.grid .xlarge-two-thirds{width:66.67%}}@media only screen and (min-width:1921px){.grid .xxlarge-whole{width:100%}.grid .xxlarge-half{width:50%}.grid .xxlarge-quarter{width:25%}.grid .xxlarge-three-quarters{width:75%}.grid .xxlarge-third{width:33.33%}.grid .xxlarge-two-thirds{width:66.67%}}
-
 /* $Default */
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	color: #222;
+	background: #fefefe;
+	margin: 0;
+	text-align: center;
+}
 header,
 .section-guide,
 footer {
 	margin: 0 auto;
 	width: 100%;
 }
-header { padding: 5rem; }
+header,
 footer { padding: 5rem 5rem 3rem; }
 .section-guide {
 	max-width: 80rem;
+	width: 100%;
 }
 section {
 	display: inline-block;
@@ -39,8 +44,8 @@ textarea { resize: vertical; }
 img { max-width: 100%; }
 
 hr {
-	background: #ccc;
-	background: linear-gradient(to right, transparent 0%, #cccccc 47%, transparent 100%);
+	background: #ddd;
+	background: linear-gradient(to right, transparent 0%, #ddd 50%, transparent 100%);
 	border: none;
 	height: 1px;
 	width: 100%;
@@ -49,33 +54,40 @@ hr.section-breaker {
 	margin: 5rem auto;
 	max-width: 80rem;
 }
+footer {
+	color: #999;
+}
 
 /* $Headers */
-h1,
 h2,
-h3,
+h3 {
+	color: #3498db;#45a9ec
+}
 h4,
 h5,
 h6 {
+	color: #777;
 }
 
 h1 {
-	font-family: 'Open Sans', serif;
+	color: #3498db;
 	font-size: 3rem;
 	font-weight: 300;
 }
 h2 {
-	font-family: 'Roboto', serif;
 	font-size: 2rem;
 	font-weight: 400;
 }
 h3 {
-	font-family: 'Roboto', serif;
 	font-size: 1.7rem;
 	font-weight: 400;
 }
 h1 + .sub-title {
 	margin-top: -1rem;
+}
+.sub-title {
+	color: #bbb;
+	font-size: 1.2em;
 }
 .fancy {
 	font-family: 'Lusitana', serif;
@@ -84,17 +96,23 @@ h1 + .sub-title {
 /* $Links */
 a {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: underline;
+	text-decoration-color: #bbb;
+	text-decoration-skip: ink;
+	text-decoration-style: solid;
 	transition: all 300ms ease-in-out;
 }
 
 /* $Buttons */
 .button {
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
-	            0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow:
+		0 2px 2px 0 rgba(0,0,0,.14),
+		0 3px 1px -2px rgba(0,0,0,.2),
+		0 1px 5px 0 rgba(0,0,0,.12);
 	margin: 2rem 1rem;
 	padding: .7rem 1rem;
 	transition: all 200ms ease-in-out;
+	text-decoration: none;
 }
 .button:hover { opacity: 0.9; }
 .button:active { box-shadow: none; }
@@ -137,11 +155,17 @@ textarea.display-inline-block {
 	padding: 0;
 }
 
-.rounded { border-radius: 3px; }
+.rounded { border-radius: 2px; }
 
 .min-width-10vw { min-width: 10vw; }
 
 .breaker { height: 1rem; width: 100%; }
+
+.github-corner svg {
+	fill: #3498db;
+	color: #fefefe;
+	text-decoration: none;
+}
 
 /* $BrowserSize */
 .browser-size h2 {

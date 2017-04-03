@@ -14,7 +14,8 @@
 		<link rel="shortcut icon" href="favicon.ico">
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300|Lusitana|Roboto:300,400|Source+Code+Pro" data-noprefix>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lusitana|Source+Code+Pro" data-noprefix>
+		<link rel="stylesheet" href="/labs.eustasy.org/assets/css/grid.min.css">
 		<link rel="stylesheet" href="/labs.eustasy.org/assets/css/labs.css">
 
 		<script>
