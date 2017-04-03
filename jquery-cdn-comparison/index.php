@@ -16,4 +16,5 @@
 	<h1 class="color-pomegranate">Lab Terminated</h1>
 	<p>This labs was outdated and has been superseded by <a href="https://github.com/eustasy/cdns">CDNs</a>.</p>
 </header>
+<hr id="footer">
 <?php include __DIR__.'/../_templates/footer.php';
