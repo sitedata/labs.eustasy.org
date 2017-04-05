@@ -15,8 +15,8 @@
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lusitana|Source+Code+Pro" data-noprefix>
-		<link rel="stylesheet" href="/labs.eustasy.org/assets/css/grid.min.css">
-		<link rel="stylesheet" href="/labs.eustasy.org/assets/css/labs.css">
+		<link rel="stylesheet" href="/assets/css/grid.min.css">
+		<link rel="stylesheet" href="/assets/css/labs.css">
 
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
