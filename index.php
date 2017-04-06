@@ -70,9 +70,9 @@ then verify the entered response over a given time variance.</p>
 		<h3>CDN Advisory</h3>
 		<ul class="list-style-none">
 			<li><a href="cdns/compare-cdns">Compare CDNs</a>
-			<li><a href="cdns/common-misconceptions-about-cdns">How to use CDNs properly</a>
+			<li><a href="cdns/how-to-use-cdns-properly">How to use CDNs properly</a>
 			<li><a href="cdns/common-misconceptions-about-cdns">Common misconceptions about CDNs</a>
-			<li><a href="https://github.com/eustasy/cdns">GitHub</a></p>
+			<li><a href="https://github.com/eustasy/cdns">GitHub</a>
 		</ul>
 	</div>
 </section>
