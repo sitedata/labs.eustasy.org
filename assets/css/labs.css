@@ -214,7 +214,7 @@ td {
 
 /* $jQuery.leanModal2 */
 .clickable { cursor: pointer; }
-.js-leanmodal-close { text-decoration: none; }
+.no-decoration { text-decoration: none; }
 .js-leanmodal-modal { padding: 1rem; }
 
 /* $Hash-Check */
