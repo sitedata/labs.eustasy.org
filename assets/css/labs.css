@@ -39,7 +39,14 @@ textarea {
 	text-align: left;
 	white-space: pre-wrap;
 }
-textarea { resize: vertical; }
+textarea {
+	resize: vertical;
+	width: 100%;
+}
+textarea.code {
+	background: rgba(0, 0, 0, 0.9);
+	color: #fefefe;
+}
 
 img { max-width: 100%; }
 
@@ -68,6 +75,7 @@ h5,
 h6 {
 	color: #777;
 }
+.color-accent { color: #45a9ec; }
 
 h1 {
 	color: #3498db;
@@ -92,6 +100,7 @@ h1 + .sub-title {
 .fancy {
 	font-family: 'Lusitana', serif;
 }
+.bold { font-weight: 600; }
 
 /* $Links */
 a {
@@ -178,6 +187,10 @@ textarea.display-inline-block {
 	bottom: 0;
 	margin: 1rem auto;
 	width: 100%;
+}
+
+.jquery-equalize-box {
+	background: #eee;
 }
 
 /* $GitHubCorner */
