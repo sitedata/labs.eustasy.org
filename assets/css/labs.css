@@ -38,6 +38,7 @@ textarea {
 	padding: .7rem 1rem;
 	text-align: left;
 	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 textarea {
 	resize: vertical;
@@ -145,7 +146,7 @@ a {
 .text-bold { font-weight: bold; }
 .text-italic { font-style: italic; }
 
-.float-center { margin: 0 auto; }
+.float-center { float: none; margin: 0 auto; }
 .float-left { float: left; }
 .float-right { float: right; }
 
@@ -171,6 +172,21 @@ textarea.display-inline-block {
 
 .breaker { height: 1rem; width: 100%; }
 
+table {
+	border-spacing: 0;
+	width: 100%;
+}
+th {
+	cursor: pointer;
+	font-weight: 300;
+	padding: 20px 10px;
+}
+thead tr:nth-child( odd ) { background: transparent; }
+tr:nth-child( odd ) { background: #ecf0f1; }
+td {
+	font-weight: 300;
+	padding: 10px;
+}
 
 /* $BrowserSize */
 .browser-size h2 {
@@ -189,9 +205,19 @@ textarea.display-inline-block {
 	width: 100%;
 }
 
+/* $jQuery.equalize */
 .jquery-equalize-box {
 	background: #eee;
 }
+
+/* $Hash-Check */
+.hi { color: #fefefe; }
+.insecure { background: #e74c3c; }
+.good { background: #27ae60; }
+.best { background: #2980b9; }
+.tablesorter-headerAsc::after { content: ' ↑'; }
+.tablesorter-headerDesc::after { content: ' ↓'; }
+
 
 /* $GitHubCorner */
 .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}
