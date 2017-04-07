@@ -206,6 +206,8 @@ td {
 }
 
 /* $jQuery.equalize */
+/* $vanilla.equalize */
+.vanilla-equalize-box,
 .jquery-equalize-box {
 	background: #eee;
 }
