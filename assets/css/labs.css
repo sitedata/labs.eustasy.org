@@ -45,6 +45,7 @@ textarea {
 	width: 100%;
 }
 textarea.code {
+	font-family: 'Source Code Pro';
 	background: #2C3e50;
 	color: #fefefe;
 }
