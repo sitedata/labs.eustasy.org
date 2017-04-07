@@ -45,7 +45,7 @@ textarea {
 	width: 100%;
 }
 textarea.code {
-	background: rgba(0, 0, 0, 0.9);
+	background: #2C3e50;
 	color: #fefefe;
 }
 
@@ -211,6 +211,11 @@ td {
 .jquery-equalize-box {
 	background: #eee;
 }
+
+/* $jQuery.leanModal2 */
+.clickable { cursor: pointer; }
+.js-leanmodal-close { text-decoration: none; }
+.js-leanmodal-modal { padding: 1rem; }
 
 /* $Hash-Check */
 .hi { color: #fefefe; }
