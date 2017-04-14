@@ -45,9 +45,15 @@ textarea {
 	width: 100%;
 }
 textarea.code {
-	font-family: 'Source Code Pro';
 	background: #2C3e50;
 	color: #fefefe;
+}
+.code {
+	font-family: 'Source Code Pro';
+}
+.code.light {
+	background: #ecf0f1;
+	color: #2C3e50;
 }
 
 img { max-width: 100%; }
@@ -89,8 +95,9 @@ h2 {
 	font-weight: 400;
 }
 h3 {
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	font-weight: 400;
+	margin: 0.5rem 0 0;
 }
 h1 + .sub-title {
 	margin-top: -1rem;
@@ -178,15 +185,14 @@ table {
 	width: 100%;
 }
 th {
-	cursor: pointer;
-	font-weight: 300;
-	padding: 20px 10px;
+	font-weight: 400;
+	padding: 1rem 0.5rem;
 }
+th.tablesorter-header { cursor: pointer; }
 thead tr:nth-child( odd ) { background: transparent; }
 tr:nth-child( odd ) { background: #ecf0f1; }
 td {
-	font-weight: 300;
-	padding: 10px;
+	padding: 0.5rem;
 }
 
 /* $BrowserSize */
