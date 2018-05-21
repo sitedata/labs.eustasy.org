@@ -13,8 +13,8 @@
 
 		<link rel="icon" href="https://labs.eustasy.org/favicon.ico">
 		<link rel="shortcut icon" href="https://labs.eustasy.org/favicon.ico">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300|Nunito:300,400">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/eustasy/Colors.css@1/colors.min.css,gh/necolas/normalize.css@8/normalize.min.css">
 
 		<style>
 			h1 { font: 300 3em/1 'Lato', sans-serif; text-transform: uppercase; margin-bottom: -.5rem; }
@@ -31,7 +31,7 @@
 			@media screen and (min-width: 80rem) { body { padding-left: 30vw; } }
 		</style>
 
-		<script src="https://cdn.jsdelivr.net/g/prefixfree,rem"></script>
+		<script src="https://cdn.jsdelivr.net/combine/gh/LeaVerou/prefixfree@1/prefixfree.min.js,gh/chuckcarpenter/REM-unit-polyfill@1/js/rem.min.js"></script>
 
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
