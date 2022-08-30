@@ -1,27 +1,18 @@
-[submodule "cdns"]
-	path = cdns
-	url = https://github.com/eustasy/cdns
-[submodule "authenticatron"]
-	path = authenticatron
-	url = https://github.com/eustasy/authenticatron
-[submodule "browning-a-mailgun-script"]
-	path = browning-a-mailgun-script
-	url = https://github.com/eustasy/browning-a-mailgun-script
-[submodule "certbot-with-nginx"]
-	path = certbot-with-nginx
-	url = https://github.com/eustasy/certbot-with-nginx
 [submodule "Colors.css"]
 	path = Colors.css
 	url = https://github.com/eustasy/Colors.css
-[submodule "freya-theme-for-google-chrome"]
-	path = freya-theme-for-google-chrome
-	url = https://github.com/eustasy/freya-theme-for-google-chrome
-[submodule "vanilla.equalize"]
-	path = vanilla.equalize
-	url = https://github.com/eustasy/vanilla.equalize
-[submodule "vanilla.downBoy"]
-	path = vanilla.downBoy
-	url = https://github.com/eustasy/vanilla.downBoy
+[submodule "authenticatron"]
+	path = authenticatron
+	url = https://github.com/eustasy/authenticatron
+[submodule "browning"]
+	path = browning-a-mailgun-script
+	url = https://github.com/eustasy/browning
+[submodule "cdns"]
+	path = cdns
+	url = https://github.com/eustasy/cdns
+[submodule "here-miss"]
+	path = here-miss
+	url = https://github.com/eustasy/here-miss
 [submodule "jQuery.downBoy"]
 	path = jQuery.downBoy
 	url = https://github.com/eustasy/jQuery.downBoy
@@ -31,27 +22,3 @@
 [submodule "jQuery.leanModal2"]
 	path = jQuery.leanModal2
 	url = https://github.com/eustasy/jQuery.leanModal2
-[submodule "here-miss"]
-	path = here-miss
-	url = https://github.com/eustasy/here-miss
-[submodule "normal-checks"]
-	path = normal-checks
-	url = https://github.com/eustasy/normal-checks
-[submodule "phoenix"]
-	path = phoenix
-	url = https://github.com/eustasy/phoenix
-[submodule "comments-evolved"]
-	path = comments-evolved
-	url = https://github.com/eustasy/comments-evolved
-[submodule "elementary-Search"]
-	path = elementary-Search
-	url = https://github.com/eustasy/elementary-Search
-[submodule "hash-check"]
-	path = hash-check
-	url = https://github.com/eustasy/hash-check
-[submodule "lib.php-fix-function-names"]
-	path = lib.php-fix-function-names
-	url = https://github.com/eustasy/lib.php-fix-function-names
-[submodule "Smooth-Scroll-ALL-the-Things"]
-	path = Smooth-Scroll-ALL-the-Things
-	url = https://github.com/eustasy/Smooth-Scroll-ALL-the-Things
