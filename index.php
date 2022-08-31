@@ -44,54 +44,17 @@ then verify the entered response over a given time variance.</p>
 
 <section class="whole grid">
 	<div class="whole smablet-half">
+		<h3>Browning: A Mailgun Script</h3>
+		<p class="text-left TODO">jQuery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page. It is open-sourced by eustasy under the MIT License, and the minified version is only 1.8KB in size.</p>
+		<p>
+			<a class="button rounded display-inline-block background-white color-belize-hole" href="browning-a-mailgun-script">Demo</a>
+			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/browning">GitHub</a>
+		</p>
+	</div>
+	<div class="whole smablet-half">
 		<a href="browning-a-mailgun-script" title="Browning: A Mailgun Script">
 			<img alt="Browning: A Mailgun Script" src="assets/images/browning.png">
 		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>Browning: A Mailgun Script</h3>
-		<p class="text-left">jQuery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page. It is open-sourced by eustasy under the MIT License, and the minified version is only 1.8KB in size.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="browning-a-mailgun-script">Demo</a>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/browning-a-mailgun-script">GitHub</a>
-		</p>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<div class="whole smablet-half float-right">
-		<a href="cdns/compare-cdns" title="CDN Advisory">
-			<img alt="jQuery.equalize" src="assets/images/cdns.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>CDN Advisory</h3>
-		<ul class="list-style-none">
-			<li><a href="cdns/compare-cdns">Compare CDNs</a>
-			<li><a href="cdns/how-to-use-cdns-properly">How to use CDNs properly</a>
-			<li><a href="cdns/common-misconceptions-about-cdns">Common misconceptions about CDNs</a>
-			<li><a href="https://github.com/eustasy/cdns">GitHub</a>
-		</ul>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<div class="whole smablet-half">
-		<a href="jQuery.equalize" title="jQuery.equalize">
-			<img alt="jQuery.equalize" src="assets/images/jquery-equalize.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>jQuery.equalize</h3>
-		<p class="text-left">jQuery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page. It is open-sourced by eustasy under the MIT License, and the minified version is only 1.8KB in size.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="jQuery.equalize">Demo</a>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/jQuery.equalize">GitHub</a>
-		</p>
 	</div>
 </section>
 
@@ -105,76 +68,10 @@ then verify the entered response over a given time variance.</p>
 	</div>
 	<div class="whole smablet-half">
 		<h3>jQuery.leanModal2</h3>
-		<p class="text-left">jQuery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page. It is open-sourced by eustasy under the MIT License, and the minified version is only 1.8KB in size.</p>
+		<p class="text-left TODOery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page. It is open-sourced by eustasy under the MIT License, and the minified version is only 1.8KB in size.</p>
 		<p>
 			<a class="button rounded display-inline-block background-white color-belize-hole" href="jQuery.leanModal2">Demo</a>
 			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/jQuery.leanModal2">GitHub</a>
-		</p>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<h2>Big Labs</h2>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<div class="whole smablet-half">
-		<a href="comments-evolved" title="Comments Evolved">
-			<img alt="Comments Evolved" src="assets/images/comments-evolved.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>Comments Evolved</h3>
-		<p class="text-left">Comments Evolved, or Comments Evolved for Websites, is based on <a href="https://github.com/CloudHeroDevOps/comments-evolved">Comments Evolved for WordPress</a>, and allows for the use of Disqus, Facebook and Google+ comments in a stylish, modular, tabbed format at the bottom of each page.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="comments-evolved">Demo</a>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/comments-evolved">GitHub</a>
-		</p>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<div class="whole smablet-half float-right">
-		<a href="elementary-Search" title="elementary Search">
-			<img alt="elementary Search" src="assets/images/elementary-Search.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>elementary Search</h3>
-		<p class="text-left">elementary Search is a small page that allows you to search with Google, Yahoo! or DuckDuckGo in a privacy orientated environment (it uses no Cookies by default) that is both simple to use and beautiful to behold. In the future we hope to have a tighter integration with the elementary project as it moves towards Isis.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="elementary-Search">Demo</a>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/elementary-Search">GitHub</a>
-		</p>
-	</div>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<h2>Tiny Labs</h2>
-</section>
-
-<hr class="section-breaker">
-
-<section class="whole grid">
-	<div class="whole smablet-half float-right">
-		<a href="browser-size" title="Browser Size">
-			<img alt="Browser Size" src="assets/images/browser-size.png">
-		</a>
-	</div>
-	<div class="whole smablet-half">
-		<h3>Browser Size</h3>
-		<p class="text-left">Browser Size is a small HTML document that relies only on jQuery to quickly and simply display the dimensions of your browser window. This can be especially useful to have locally stored on your machine for manipulating CSS Media Queries and emulating smaller screens.</p>
-		<p>
-			<a class="button rounded display-inline-block background-white color-belize-hole" href="browser-size">Demo</a>
-			<a class="button rounded display-inline-block display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/labs.eustasy.org">GitHub</a>
 		</p>
 	</div>
 </section>
